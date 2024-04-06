@@ -1,0 +1,39 @@
+                                              Array
+------------------------------------------------------------------------------------------------------------------
+hum ak variable ko multiple value nahi de sakte 
+$numb = 1,2,3,4,5 ;
+parse error:syntax error, unexpected token ","
+echo :-fast hota hai 
+print:-return data hai
+------------------------------------------------------------------------------------------------------------------
+solotion:-array
+$num =array(1,2,3,4,5);
+echo $num (warning :array to string conversion)
+hum array ko echo ki madat se print nahi kara sakte hai  
+print_r() ak function hai jisse hum puri array print kara sakte hai.
+------------------------------------------------------------------------------------------------------------------
+                                    echo vs print(print_r())
+echo se hum single single element print kara sakte hai by using syntax:echo $num[indexvalue(0,1,2,3---)]or$num[0];
+
+print(print_r()) se hum puri array print kara sakte hai 
+------------------------------------------------------------------------------------------------------------------
+eg:-$num=array(10,20,30,40,50);
+echo$num[0] 
+result:-  10
+echo se hum 2 number ka sum bhi kar sakte hai eg;
+echo$num[0]+$num[2]; []-- square bracket ke andar index value hai jo zero se start hoti hai
+result;- 40
+print_r() se puri array print hogi
+result:- Array ( [0] => 10 [1] => 20 [2] => 30 [3] => 40 [4] => 50 )
+------------------------------------------------------------------------------------------------------------------
+                                                Pre tag(as it is)
+jub hume html maine jo structure likha hai vo dikhana ho to pre tag use hota hai 
+# pre tag :- <pre> tag defines preformatted text. The text will be displayed exactly as written in the HTML source code.
+syntax for php:-
+echo '<pre>';
+print_r($numb);
+echo '</pre>';
+
+------------------------------------------------------------------------------------------------------------------
+                                        thanks and jai shree ram 
+------------------------------------------------------------------------------------------------------------------
