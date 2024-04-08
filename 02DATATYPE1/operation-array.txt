@@ -1,0 +1,19 @@
+-------------------------operation in array----------------------------------
+a) change(replace old data)
+uske liye uss data ki index value jo array main di ho jisko change karna ho iss format main likh do 
+eg;- $num=array(1,2,3);
+syntax;-$num[0]=9; then yeh change ho jayga  
+-----------------------------------------------------------------------------
+b) add (array main data add ke liye)
+but data end main add hoga agar mid/start main add karna hai to use push function 
+eg;- $num=array(1,2,3);
+syntax;-$num[]=4; then yeh add ho jayga  
+$num=array(1,2,3,4);
+----------------------------------------------------------------------------
+c)shorthand for array 
+it available in PHP V5.3
+IN THS we don't write array when we iniatilized it
+eg;- $num=array(1,2,3);
+syntax;-$num=[1,2,3];
+----------------------------------------------------------------------------
+                               thankyou

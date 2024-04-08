@@ -1,0 +1,19 @@
+------------------------ASSOCIATIVE ARRAY------------------------------------
+INDEX ARRAY insecure hoti hai kuki usme hum key ko change nahi kar sakte and koi key ka use karke value change,show kar sakta hai kuki key initalization (0,1,2,----) se hota hai.
+iss chez ka solution associative array isme hum jo chaine key and value rakh sakte hai .
+-----------------------------------------------------------------------------
+definition
+Associative Array - It refers to an array with strings as an index. Rather than storing element values in a strict linear index order, this stores them in combination with key values. Multiple indices are used to access values in a multidimensional array, which contains one or more arrays. 
+-----------------------------------------------------------------------------
+syntax;-$asso=array("a"=>9813 ,"b"=>123 ,"p"=>677,"batman"=>"me");
+key---->a,b,p,batman
+value-->9813,123,677,me
+-----------------------------------------------------------------------------
+isko index array ki tarha bhi use kar sakte hai but hum php main isse as associative use karenge 
+$asso1=array("a"=>9813 ,"rat","b"=>123 ,"p"=>677,"cat","batman"=>"me",1,295);
+index array format:-"rat","cat",1,295  
+associative array format:-"a"=>9813,"b"=>123 etc.
+-------------------------------------------------
+simply if we enter data without key so it take as index zero (i=0)  "rat","cat",1,295 dont have key it initalized as index key (0,1,2,3) baki jine humne key assign kari hai vo aaygi.
+----------------------------------------------------------------------------- 
+                               thankyou
